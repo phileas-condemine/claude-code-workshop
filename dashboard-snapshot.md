@@ -1,0 +1,86 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - heading "Catalyst Components" [level=1] [ref=e7]
+        - generic [ref=e8]: Inventory Management System
+      - navigation [ref=e9]:
+        - link "Overview" [ref=e10] [cursor=pointer]:
+          - /url: /
+        - link "Inventory" [ref=e11] [cursor=pointer]:
+          - /url: /inventory
+        - link "Restocking" [ref=e12] [cursor=pointer]:
+          - /url: /restocking
+        - link "Orders" [ref=e13] [cursor=pointer]:
+          - /url: /orders
+        - link "Finance" [ref=e14] [cursor=pointer]:
+          - /url: /spending
+        - link "Demand Forecast" [ref=e15] [cursor=pointer]:
+          - /url: /demand
+        - link "Reports" [ref=e16] [cursor=pointer]:
+          - /url: /reports
+      - button "English" [ref=e18] [cursor=pointer]:
+        - img [ref=e19]
+        - generic [ref=e23]: English
+        - img [ref=e24]
+      - button "JD John Doe" [ref=e27] [cursor=pointer]:
+        - generic [ref=e28]: JD
+        - generic [ref=e29]: John Doe
+        - img [ref=e30]
+  - generic [ref=e33]:
+    - generic [ref=e34]:
+      - generic [ref=e35]:
+        - generic [ref=e36]: Time Period
+        - combobox [ref=e37] [cursor=pointer]:
+          - option "All Months" [selected]
+          - option "January"
+          - option "February"
+          - option "March"
+          - option "April"
+          - option "May"
+          - option "June"
+          - option "July"
+          - option "August"
+          - option "September"
+          - option "October"
+          - option "November"
+          - option "December"
+      - generic [ref=e38]:
+        - generic [ref=e39]: Location
+        - combobox [ref=e40] [cursor=pointer]:
+          - option "All" [selected]
+          - option "San Francisco"
+          - option "London"
+          - option "Tokyo"
+      - generic [ref=e41]:
+        - generic [ref=e42]: Category
+        - combobox [ref=e43] [cursor=pointer]:
+          - option "All" [selected]
+          - option "Circuit Boards"
+          - option "Sensors"
+          - option "Actuators"
+          - option "Controllers"
+          - option "Power Supplies"
+      - generic [ref=e44]:
+        - generic [ref=e45]: Order Status
+        - combobox [ref=e46] [cursor=pointer]:
+          - option "All" [selected]
+          - option "Delivered"
+          - option "Shipped"
+          - option "Processing"
+          - option "Backordered"
+    - button "Reset all filters" [disabled] [ref=e47]:
+      - img [ref=e48]
+  - main [ref=e50]:
+    - generic [ref=e51]:
+      - heading "Overview" [level=2] [ref=e53]
+      - generic [ref=e54]:
+        - generic [ref=e55]:
+          - heading "Key Performance Indicators" [level=3] [ref=e56]
+          - generic [ref=e57]
+        - heading "Summary" [level=3] [ref=e89]
+        - generic [ref=e90]:
+          - generic [ref=e91]
+          - generic [ref=e127]
+          - generic [ref=e157]
+          - generic [ref=e234]
